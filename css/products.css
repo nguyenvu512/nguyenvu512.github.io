@@ -1,0 +1,42 @@
+.navbar-bonus-item{
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0px 15px;
+}
+.navbar-bonus{
+    margin: 15px 0;
+    font-size: 1rem;
+    font-weight: 320;
+
+}
+.navbar-bonus-item-products{
+    font-weight: 450;
+}
+.myCriteria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #e4e1e1;
+    padding-bottom: 20px;
+}
+.myFirstCriteria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.mybtn1{
+    min-width: 180px;
+    margin-top: 20px;
+    color: black;
+}
+.border_left{
+    border-right: 1px solid #e4e1e1;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.card{
+    border-color: #e4e1e1;
+}

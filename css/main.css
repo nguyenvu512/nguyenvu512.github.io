@@ -1,0 +1,144 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+
+    --navbar-height: 34px;
+}
+.navbar-logo{
+    margin: 0 16px !important;
+}
+.navbar{
+    background-color: #ffffff !important;
+}
+.collapse{
+    justify-content: space-between !important;
+}
+.nav-item a{
+    color: #000000 !important;
+}
+.nav-item a:hover{
+    opacity: 0.5;
+}
+.mul{
+    height: 22px;
+    border-right: 1px solid #969494;
+    margin-top: 10px;
+}
+.nav-mul{
+    margin-left: 20px;
+}
+.title_product{
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 30px;
+    color: var(--text-color);
+    margin-right: 0;
+}
+.title_product_div{
+    margin-top: 34px;
+    margin-bottom: 16px;
+    margin-right: 14px;
+    padding: 0;
+}
+.mybtn{
+    background-color: #000;
+    border-radius: 0px;
+}
+.bonus{
+    width: 100%;
+    height: 40px;
+    background-color:var(--black-color);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.bonus_text{
+    color: var(--white-color);
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.text_link{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.page-link{
+    color: #7a7878;
+}
+.page-item.active .page-link{
+    background-color: #7a7878;
+    border-color: #7a7878;
+}
+.page-link:hover{
+    color: #606060;
+}
+.contact{
+    margin-bottom: 0;
+}
+.footer_logo{
+    margin-right: 15px;
+    font-size: 18px;
+    color: black;
+}
+.card_footer{
+    border: none;
+    margin:20px 0;
+}
+.footer_title{
+    font-size: 1.4rem;
+}
+.footer_sp_item{
+    text-decoration: none;
+    color: var(--black-color);
+}
+.footer_sp_item:hover{
+    text-decoration: underline;
+}
+.hover_link_text:hover{
+    text-decoration: underline;
+}
+.nav-item{
+    position: relative;
+}
+/* tìm kiếm */
+.searchBox{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 66px;
+    background-color: #ffffff;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.active{
+    display: flex !important;
+}
+.searchInput{
+    height: 40px;
+    width: 800px;
+    padding: 0 15px;
+    border: 1px solid #c5c5c5;
+    border-radius: 2px;
+}
+.searchInput:focus{
+    outline: none;
+}
+.icon_1{
+    color: #262525;
+    margin: 0 15px;
+    font-weight: 300;
+}
+.searchIcon{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 20px;
+    right: 255px;
+}
+.deleteIcon{
+    font-size: 1.7rem;
+}
